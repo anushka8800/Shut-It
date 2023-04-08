@@ -249,14 +249,26 @@ li span{
   justify-content: space-around;
   align-items: center;
   padding: 40px 0 40px 0;
+
+
+  
+
 }
 
 .infoCards .card{
-  position: relative;
-  height: 360px;
+position: relative;
+box-sizing: border-box;
+ height: 360px;
   width: 350px;
-  background: var(--background-color);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+/*width: 305px;
+height: 304px;*/
+/*eft: 1013px;
+top: 2240px;*/
+
+background: rgba(255, 255, 255, 0.12);
+border: 1px solid rgba(255, 255, 255, 0.16);
+box-shadow: inset -4px -4px 12px rgba(0, 0, 0, 0.29), inset 4px 4px 12px rgba(255, 255, 255, 0.08);
+border-radius: 12px;
 }
 
 .infoCards .one .cardoneImg{
@@ -303,11 +315,7 @@ li span{
   opacity: 0.6
 }
 
-.infoimg{
-  /*border-radius: 60px;*/
-      max-width: 335px;
-    max-height: 12rem;
-}
+
 
 /* Banner */
 
