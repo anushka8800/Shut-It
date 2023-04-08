@@ -295,11 +295,11 @@ border-radius: 12px;
 
 .cardbgone{
   height: 100px;
-  background-color: #ffce63;
+  background-color: rgba(255, 255, 255, 0.12);
 }
 .cardbgtwo{
   height: 100px;
-  background-color: #a1cdff;
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 .cardContent{
@@ -321,7 +321,7 @@ border-radius: 12px;
 
 .banner{
   height: 500px;
-  background-color: #ffce63;
+  background-color: background-color: var(--background-color);;
   display: flex;
   flex-direction: row;
   padding: 50px;
@@ -331,7 +331,7 @@ border-radius: 12px;
 
 .bannerText h1{
   font-size: 3vw;
-  color: #000;
+  color: white;
   font-weight: 600;
 }
 
